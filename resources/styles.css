@@ -26,6 +26,8 @@ body {
 .header {
      grid-area: header;
      /*font-family: 'Alice';*/
+     background-image: url("Personal website - Desktop photo.png");
+     background-color: #cccccc;
      background: #DEC200;
      font-size: 1.25em;
      }
