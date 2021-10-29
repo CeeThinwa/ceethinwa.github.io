@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+
 * {
      box-sizing: border-box;
      }
 
 body {
      text-align: center;
-     background: #FCFAF0;
-     /*font-family: 'Alice';*/
+     font-family:'Montserrat';
      margin: 0em;
      padding: 0em;
      }
@@ -20,24 +22,27 @@ body {
           "content"
           "footer";
      grid-template-columns: 1fr;
-     grid-template-rows: 425px 3300px 100px;
+     grid-template-rows: 675px 3300px 100px;
      }
 
 .header {
      grid-area: header;
-     /*font-family: 'Alice';*/
      background-image: url("Personal website - Desktop photo.png");
-     background-color: #cccccc;
-     background: #DEC200;
-     font-size: 1.25em;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-color: #00c2cb;
+     font-size: 5em;
+     color: #fff;
      }
 
 .content {
      grid-area: content;
+     background: #00c2cb;
      }
 
 .footer {
      grid-area: footer;
      /*font-family: 'Alice';*/
-     background: #DEC200;
+     background: #000;
      }
