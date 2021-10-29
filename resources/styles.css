@@ -1,0 +1,41 @@
+* {
+     box-sizing: border-box;
+     }
+
+body {
+     text-align: center;
+     background: #FCFAF0;
+     /*font-family: 'Alice';*/
+     margin: 0em;
+     padding: 0em;
+     }
+
+.container {
+     font-size: 1em;
+     width: 100%;
+     height: 100vh;
+     display: grid;
+     grid-template-areas:
+          "header"
+          "content"
+          "footer";
+     grid-template-columns: 1fr;
+     grid-template-rows: 425px 3300px 100px;
+     }
+
+.header {
+     grid-area: header;
+     /*font-family: 'Alice';*/
+     background: #DEC200;
+     font-size: 1.25em;
+     }
+
+.content {
+     grid-area: content;
+     }
+
+.footer {
+     grid-area: footer;
+     /*font-family: 'Alice';*/
+     background: #DEC200;
+     }
