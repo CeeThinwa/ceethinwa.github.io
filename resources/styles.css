@@ -22,7 +22,7 @@ body {
           "content"
           "footer";
      grid-template-columns: 1fr;
-     grid-template-rows: 45% 45% 10%;
+     grid-template-rows: 700px 675px 100px;
      }
 
 .header {
@@ -40,6 +40,5 @@ body {
 
 .footer {
      grid-area: footer;
-     /*font-family: 'Alice';*/
      background: #000;
      }
