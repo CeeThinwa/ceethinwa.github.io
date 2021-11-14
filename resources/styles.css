@@ -27,10 +27,6 @@ body {
 
 .header {
      grid-area: header;
-     background-image: url("Personal website - Desktop photo.png");
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: 10em;
      background-color: #00c2cb;
      font-size: 5em;
      color: #fff;
