@@ -47,13 +47,12 @@ body {
      }
 
 /* DEFAULT ELEMENTS*/
-.button {
+button {
      background-color: #ffde59;
      border: none;
      color: #00c2cb;
      padding: 1em 1em;
      text-align: center;
-     text-decoration: none;
-     font-size: 2.5em;
+     font-size: 5em;
      border-radius: 50%;
      }
