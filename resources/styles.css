@@ -48,11 +48,12 @@ body {
 
 /* DEFAULT ELEMENTS*/
 button {
+     font-family:'Montserrat';
      background-color: #ffde59;
      border: none;
      color: #00c2cb;
-     padding: 1em 1em;
+     padding: 0.5em 0.5em;
      text-align: center;
-     font-size: 5em;
-     border-radius: 50%;
+     font-size: 2em;
+     border-radius: 25%;
      }
