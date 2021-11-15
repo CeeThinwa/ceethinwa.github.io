@@ -39,6 +39,8 @@ body {
 .content {
      grid-area: content;
      background: #00c2cb;
+     color: #fff;
+     font-size: 1.75em;
      }
 
 .buttons {
