@@ -22,7 +22,7 @@ body {
           "content"
           "footer";
      grid-template-columns: 1fr;
-     grid-template-rows: 700px 675px 100px;
+     grid-template-rows: 700px 700px 100px;
      }
 
 .header {
@@ -54,6 +54,6 @@ button {
      color: #00c2cb;
      padding: 0.5em 0.5em;
      text-align: center;
-     font-size: 2em;
+     font-size: 1em;
      border-radius: 25%;
      }
