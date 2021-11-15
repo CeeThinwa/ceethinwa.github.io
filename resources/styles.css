@@ -45,3 +45,15 @@ body {
      grid-area: footer;
      background: #000;
      }
+
+/* DEFAULT ELEMENTS*/
+.button {
+     background-color: #ffde59;
+     border: none;
+     color: #00c2cb;
+     padding: 1em 1em;
+     text-align: center;
+     text-decoration: none;
+     font-size: 2.5em;
+     border-radius: 50%;
+     }
