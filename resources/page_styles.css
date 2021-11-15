@@ -53,6 +53,12 @@ body {
      }
 
 /* DEFAULT ELEMENTS*/
+
+button:hover{
+     background-color: #000;
+     color: #fff;
+     }
+
 button {
      font-family:'Montserrat';
      background-color: #ffde59;
@@ -62,9 +68,4 @@ button {
      text-align: center;
      font-size: 0.75em;
      border-radius: 50px;
-     }
-
-button:hover{
-     background-color: #000;
-     color: #fff;
      }
