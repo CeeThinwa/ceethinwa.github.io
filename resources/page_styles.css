@@ -22,7 +22,7 @@ body {
           "content"
           "footer";
      grid-template-columns: 1fr;
-     grid-template-rows: 250px 1850px 100px;
+     grid-template-rows: 250px 1500px 100px;
      }
 
 .header {
