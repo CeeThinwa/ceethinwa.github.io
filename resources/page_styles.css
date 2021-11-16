@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 * {
      box-sizing: border-box;
@@ -49,7 +49,7 @@ body {
      margin: 2.5em;
      }
 
-.col{
+.col {
      flex: 45%;
      max-width: 45%;
      padding: 1em;
@@ -57,11 +57,9 @@ body {
      color: #000;
      }
 
-.buttons {
-     display: flex;
-     justify-content: space-between;
-     margin: 2em;
-     padding: 2em;
+.letter {font-family: 'Rock Salt';
+     font-size: 0.75em;
+     text-align: left;
      }
 
 .footer {
