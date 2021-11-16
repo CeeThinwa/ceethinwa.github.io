@@ -22,7 +22,7 @@ body {
           "content"
           "footer";
      grid-template-columns: 1fr;
-     grid-template-rows: 250px 850px 100px;
+     grid-template-rows: 250px 1000px 100px;
      }
 
 .header {
@@ -63,7 +63,7 @@ body {
      text-align: left;
      padding: 0.25em;
      margin: 0.25em;
-     background: #00c2cb;
+     color: #00c2cb;
      }
 
 .footer {
