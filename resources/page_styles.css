@@ -22,7 +22,7 @@ body {
           "content"
           "footer";
      grid-template-columns: 1fr;
-     grid-template-rows: 250px 725px 100px;
+     grid-template-rows: 250px 800px 100px;
      }
 
 .header {
@@ -87,4 +87,7 @@ button {
      border-radius: 50px;
      }
 
-p {font-size: 0.5em;}
+p {
+     font-size: 0.75em;
+     text-align: left;
+     }
