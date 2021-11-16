@@ -59,10 +59,10 @@ body {
 
 .letter {
      font-family: 'Rock Salt';
-     font-size: 0.75em;
+     font-size: 0.5em;
      text-align: left;
      padding: 0.5em;
-     margin: 15em;
+     margin: 1em;
      color: #000;
      width: 75%;
      }
