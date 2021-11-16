@@ -22,7 +22,7 @@ body {
           "content"
           "footer";
      grid-template-columns: 1fr;
-     grid-template-rows: 250px 800px 100px;
+     grid-template-rows: 250px 850px 100px;
      }
 
 .header {
@@ -57,9 +57,13 @@ body {
      color: #000;
      }
 
-.letter {font-family: 'Rock Salt';
-     font-size: 0.3em;
+.letter {
+     font-family: 'Rock Salt';
+     font-size: 0.5em;
      text-align: left;
+     padding: 0.25em;
+     margin: 0.25em;
+     background: #00c2cb;
      }
 
 .footer {
