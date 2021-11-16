@@ -50,8 +50,8 @@ body {
      }
 
 .col{
-     flex: 25%;
-     max-width: 25%;
+     flex: 45%;
+     max-width: 45%;
      padding: 1em;
      background: #ffde59;
      color: #000;
