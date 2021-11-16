@@ -33,6 +33,13 @@ body {
      padding: 2.5em;
      }
 
+.content {
+     grid-area: content;
+     background: #fff;
+     color: #00c2cb;
+     font-size: 1.75em;
+     }
+
 .grid-row {
      display: flex;
      flex-wrap: wrap;
@@ -48,13 +55,6 @@ body {
      padding: 1em;
      background: #ffde59;
      color: #000;
-     }
-
-.content {
-     grid-area: content;
-     background: #fff;
-     color: #00c2cb;
-     font-size: 1.75em;
      }
 
 .buttons {
