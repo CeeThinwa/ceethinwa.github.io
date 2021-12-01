@@ -77,11 +77,11 @@ button {
 
 @media (max-width: 850px) {
     .container {
-         grid-template-rows: 200px 1100px 75px;
+         grid-template-rows: 200px 1500px 75px;
          }
     .header {
          padding: 1em;
-         width: 100%;
+         max-width: 100%;
          }
     .content {
          align-content: center;
