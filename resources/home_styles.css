@@ -77,9 +77,9 @@ button {
 
 @media (max-width: 850px) {
     .container {
-         grid-template-rows: 200px 1500px 75px;
+         grid-template-rows: 200px 2000px 75px;
          }
-    .header {
+    header {
          padding: 1em;
          max-width: 100%;
          }
