@@ -81,6 +81,7 @@ button {
          }
     .header {
          padding: 1em;
+         width: 100%;
          }
     .content {
          align-content: center;
