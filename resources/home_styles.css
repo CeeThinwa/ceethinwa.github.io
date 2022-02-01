@@ -41,8 +41,7 @@ body {
      float: left;
      width: 50%;
 }
-
-#profile {width: 500px;/*width: 350px; height: 350px*/}
+#profile {width: 500px;}
 
 .right {
   float: left;
@@ -84,10 +83,26 @@ button {
 
 /* RESPONSIVE SCREEN SIZE*/
 
+@media only screen and (max-width: 850px) {
+  /* For tablets: */
+.container {
+     grid-template-rows: 50px 500px 100px;
+     }
+
+.main, .right {
+     font-size: 0.65em;
+     }
+
+#profile {
+     width: 300px;
+     }
+}
+
+
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
 .container {
-     grid-template-rows: 50px 750px 100px;
+     grid-template-rows: 50px 900px 100px;
      }
 
 .main, .right {
@@ -97,5 +112,5 @@ button {
 
 #profile {
      width: 300px;
-}
+     }
 }
