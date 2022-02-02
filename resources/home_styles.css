@@ -22,7 +22,7 @@ body {
           "content"
           "footer";
      grid-template-columns: 1fr;
-     grid-template-rows: 50px 750px 100px;
+     grid-template-rows: 50px 750px 50px;
      }
 
 .header {
@@ -51,6 +51,14 @@ body {
   text-align: center;
 }
 
+.footer {
+     grid-area: footer;
+     background: #fffbf2;
+     }
+
+
+/* BUTTONS */
+
 .buttons {
      display: flex;
      justify-content: space-between;
@@ -58,35 +66,44 @@ body {
      padding: 2em;
      }
 
-.footer {
-     grid-area: footer;
-     background: #fffbf2;
-     }
-
-/* DEFAULT ELEMENTS*/
-
-button:hover{
-     background-color: #000;
-     color: #fff;
-     }
-
-button {
+.button {
      font-family:'Quicksand';
-     background-color: #ffde59;
+     background-color: #1f274c;
      border: none;
-     color: #00c2cb;
+     color: #fffbf2;
      padding: 0.5em 0.5em;
      text-align: center;
      font-size: 0.75em;
      border-radius: 50px;
      }
 
+.hme1:hover{
+     background-color: #e8aaa7;
+     color: #1f274c;
+     }
+
+.hme2:hover{
+     background-color: #cbcce7;
+     color: #1f274c;
+     }
+
+.hme3:hover{
+     background-color: #ffde59;
+     color: #1f274c;
+     }
+
+.hme4:hover{
+     background-color: #fcc0a3;
+     color: #1f274c;
+     }
+
+
 /* RESPONSIVE SCREEN SIZE*/
 
 @media only screen and (max-width: 850px) {
   /* For tablets: */
 .container {
-     grid-template-rows: 50px 500px 100px;
+     grid-template-rows: 50px 500px 50px;
      }
 
 .main, .right {
@@ -102,15 +119,11 @@ button {
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
 .container {
-     grid-template-rows: 50px 900px 100px;
+     grid-template-rows: 50px 900px 50px;
      }
 
 .main, .right {
      width: 100%;
      font-size: 0.65em;
-     }
-
-#profile {
-     width: 300px;
      }
 }
