@@ -22,7 +22,7 @@ body {
           "content"
           "footer";
      grid-template-columns: 1fr;
-     grid-template-rows: 50px 750px 50px;
+     grid-template-rows: 50px 975px 50px;
      }
 
 .header {
@@ -61,7 +61,7 @@ body {
 
 .buttons {
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
      margin: 2em;
      padding: 2em;
      }
@@ -74,7 +74,9 @@ body {
      padding: 0.5em 0.5em;
      text-align: center;
      font-size: 0.75em;
-     border-radius: 50px;
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
      }
 
 .hme1:hover{
@@ -100,13 +102,13 @@ body {
 
 /* RESPONSIVE SCREEN SIZE*/
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   /* For tablets: */
 .container {
-     grid-template-rows: 50px 500px 50px;
+     grid-template-rows: 50px 900px 50px;
      }
 
-.main, .right {
+.main, .right, .button {
      font-size: 0.65em;
      }
 
@@ -119,11 +121,27 @@ body {
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
 .container {
-     grid-template-rows: 50px 900px 50px;
+     grid-template-rows: 50px 1225px 50px;
      }
 
 .main, .right {
      width: 100%;
      font-size: 0.65em;
      }
+
+.buttons {
+     display: inline-flex;
+     flex-wrap: wrap;
+     gap: 15px;
+     }
+
+.button {
+     font-family:'Quicksand';
+     padding: 0.25em 0.25em;
+     font-size: 0.6em;
+     height: 80px;
+     width: 80px;
+     }
+
 }
+
