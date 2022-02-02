@@ -7,11 +7,10 @@
 body {
      text-align: center;
      font-family:'Quicksand';
-     background: #fffbf2;
+     background: #e8aaa7;
      }
 
 .container {
-     background-color: #fffbf2;
      font-size: 0.75em;
      color: #1f274c;
      width: 100%;
@@ -27,33 +26,37 @@ body {
 
 .header {
      grid-area: header;
+     color: #fffbf2;
+     font-size: 2.5em;
      }
 
 .content {
      grid-area: content;
-     background: #fffbf2;
      font-size: 1.75em;
      margin: 0.25em;
      padding: 0.25em;
      }
 
+.left {
+     float: left;
+     width: 50%;
+}
+
+
 .main {
      float: left;
      width: 50%;
 }
-#profile {width: 500px;}
 
 .right {
   float: left;
   width: 45%;
-  padding: 15px;
-  margin: 0.25em;
-  text-align: center;
 }
+
+.main
 
 .footer {
      grid-area: footer;
-     background: #fffbf2;
      }
 
 
@@ -77,26 +80,6 @@ body {
      height: 100px;
      width: 100px;
      border-radius: 50%;
-     }
-
-.hme1:hover{
-     background-color: #e8aaa7;
-     color: #1f274c;
-     }
-
-.hme2:hover{
-     background-color: #cbcce7;
-     color: #1f274c;
-     }
-
-.hme3:hover{
-     background-color: #ffde59;
-     color: #1f274c;
-     }
-
-.hme4:hover{
-     background-color: #fcc0a3;
-     color: #1f274c;
      }
 
 
