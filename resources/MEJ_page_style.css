@@ -30,6 +30,7 @@ body {
      font-size: 1.75em;
      }
 
+
 .content {
      grid-area: content;
      font-size: 1.15em;
@@ -53,7 +54,6 @@ body {
      width: 45%;
      margin: 1.25em;
 }
-
 
 .right {
   float: left;
