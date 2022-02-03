@@ -7,7 +7,7 @@
 body {
      text-align: center;
      font-family:'Quicksand';
-     background: #e8aaa7;
+     background: #cbcce7;
      }
 
 .container {
@@ -40,6 +40,12 @@ body {
 .intro {
      margin: 0.25em;
      padding: 0.25em;
+     font-size: 1.25em;
+     }
+
+.comparison {
+     margin: 0.25em;
+     padding: 0.25em;
      }
 
 .left {
@@ -48,11 +54,6 @@ body {
      margin: 1.25em;
 }
 
-.main {
-     float: left;
-     width: 30%;
-     margin: 1.25em;
-}
 
 .right {
   float: left;
