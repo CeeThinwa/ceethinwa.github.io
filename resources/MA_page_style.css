@@ -110,7 +110,7 @@ a, h2, em {
 @media only screen and (max-width: 980px) {
   /* For tablets: */
 .container {
-     grid-template-rows: 75px 900px 50px;
+     grid-template-rows: 100px 800px 50px;
      }
 
 .left, .main, .right, .button {
@@ -127,7 +127,7 @@ a, h2, em {
 @media only screen and (max-width: 680px) {
   /* For mobile phones: */
 .container {
-     grid-template-rows: 135px 1225px 50px;
+     grid-template-rows: 135px 900px 50px;
      }
 
 .left, .right {
