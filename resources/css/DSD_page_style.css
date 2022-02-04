@@ -21,7 +21,7 @@ body {
           "content"
           "footer";
      grid-template-columns: 1fr;
-     grid-template-rows: 100px 800px 50px;
+     grid-template-rows: 100px 900px 50px;
      }
 
 .header {
@@ -79,6 +79,7 @@ body {
      justify-content: space-around;
      margin: 2em;
      padding: 2em;
+     gap: 15px;
      }
 
 button {
@@ -119,7 +120,7 @@ a, h2, em {
 @media only screen and (max-width: 980px) {
   /* For tablets: */
 .container {
-     grid-template-rows: 50px 900px 50px;
+     grid-template-rows: 75px 2000px 50px;
      }
 
 .left, .main, .right, .button {
@@ -137,7 +138,7 @@ a, h2, em {
 @media only screen and (max-width: 680px) {
   /* For mobile phones: */
 .container {
-     grid-template-rows: 50px 1225px 50px;
+     grid-template-rows: 125px 2500px 50px;
      }
 
 .left, .main, .right {
