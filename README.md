@@ -1,4 +1,4 @@
-<img src="https://avatars.githubusercontent.com/u/45120266?s=400&u=458cb3b0c07fda4adc191f15a08685b8b48d0c13&v=4"
+<img src="resources/img/profile.svg"
        alt="Cynthia profile" width="25%" />
 
 # Welcome to my Portfolio!
