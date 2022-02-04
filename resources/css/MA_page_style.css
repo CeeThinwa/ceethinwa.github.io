@@ -74,7 +74,7 @@ body {
      padding: 2em;
      }
 
-button {
+.button {
      font-family:'Quicksand';
      background-color: #1f274c;
      border: none;
@@ -87,7 +87,7 @@ button {
      border-radius: 50%;
      }
 
-button:hover{
+.button:hover{
      background-color: #fffbf2;
      color: #1f274c;
      }
@@ -103,6 +103,22 @@ a, h2, em {
 /* Remove the floating effect*/
 
 .footer {clear:left;}
+
+
+/* Hide inactive buttons*/
+
+.inactive {
+     background-color: #ffde59;
+     color: #ffde59;
+     font-family:'Quicksand';
+     border: none;
+     padding: 0.5em 0.5em;
+     text-align: center;
+     font-size: 1em;
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     }
 
 
 /* RESPONSIVE SCREEN SIZE*/
