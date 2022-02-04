@@ -82,7 +82,7 @@ body {
      gap: 15px;
      }
 
-button {
+.button {
      font-family:'Quicksand';
      background-color: #1f274c;
      border: none;
@@ -95,7 +95,7 @@ button {
      border-radius: 50%;
      }
 
-button:hover{
+.button:hover{
      background-color: #fffbf2;
      color: #1f274c;
      }
@@ -112,8 +112,26 @@ a, h2, em {
 
 .footer {clear:left;}
 
+
 /* Images */
 #dashboard, #machine_learning, #code_notebooks {width: 300px;}
+
+
+/* Hide inactive buttons*/
+
+.inactive {
+     background-color: #fcc0a3;
+     color: #fcc0a3;
+     font-family:'Quicksand';
+     border: none;
+     padding: 0.5em 0.5em;
+     text-align: center;
+     font-size: 1em;
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     }
+
 
 /* RESPONSIVE SCREEN SIZE*/
 
