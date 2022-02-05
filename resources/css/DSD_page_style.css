@@ -173,9 +173,9 @@ a, h2, em {
 .button {
      font-family:'Quicksand';
      padding: 0.25em 0.25em;
-     font-size: 0.6em;
-     height: 80px;
-     width: 80px;
+     font-size: 1em;
+     height: 100px;
+     width: 100px;
      }
 
 }
