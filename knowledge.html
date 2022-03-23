@@ -11,10 +11,12 @@
         @media only screen and (max-width: 980px) {
             /* For tablets: */
             .container {grid-template-rows: 75px 500px 50px;}
-        }        
+            .intro-vid {width:75%}
+        }
         @media only screen and (max-width: 680px) {
-                /* For mobile phones: */
-                .container {grid-template-rows: 135px 600px 50px;}
+            /* For mobile phones: */
+            .container {grid-template-rows: 135px 600px 50px;}
+            .intro-vid {width:85%}
         }
         </style>
     <div class="container">
@@ -22,7 +24,8 @@
         <div class="content">
             <div class="intro">My education is a blend of self-taught and traditional education.</div>
             <div class="knowledge-intro">
-                <video width="50%" controls>
+                <br>
+                <video class="intro-vid" width="50%" controls>
                     <source src="./resources/This is the Knowledge Hub!.mp4" type="video/mp4">
                 </video>
             </div>
