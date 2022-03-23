@@ -6,12 +6,23 @@
     <link rel="stylesheet" href="./resources/css/MEJ_page_style.css" type='text/css'>
 </head>
 <body>
+    <style>
+        /* RESPONSIVE SCREEN SIZE*/
+        @media only screen and (max-width: 980px) {
+            /* For tablets: */
+            .container {grid-template-rows: 75px 500px 50px;}
+        }        
+        @media only screen and (max-width: 680px) {
+                /* For mobile phones: */
+                .container {grid-template-rows: 135px 600px 50px;}
+        }
+        </style>
     <div class="container">
         <div class="header"><h1 class="MEJh1">My Education Journey</h1></div>
         <div class="content">
             <div class="intro">My education is a blend of self-taught and traditional education.</div>
             <div class="knowledge-intro">
-                <video width="75%" controls>
+                <video width="50%" controls>
                     <source src="./resources/This is the Knowledge Hub!.mp4" type="video/mp4">
                 </video>
             </div>
