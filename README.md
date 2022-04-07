@@ -15,4 +15,4 @@ I blend HTML, CSS, JavaScript, Python, R, Markdown and PowerBI with copywriting,
 
 I’m open to research and data positions; let’s talk opportunities at [ceethinwa@gmail.com](mailto:ceethinwa@gmail.com).
 
-What are you still doing on the README? Experience the live site [here](https://ceethinwa.github.io!
+What are you still doing on the README? Experience the live site [here](https://ceethinwa.github.io)!
