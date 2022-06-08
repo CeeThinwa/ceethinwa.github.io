@@ -7,14 +7,98 @@
 </head>
 <body>
     <style>
+        .carousel {
+            margin: 0 auto;
+            overflow: hidden;
+            text-align: center;
+            }
+
         .slides {
+            width: 100%;
+            display: flex;
             overflow-x: scroll;
+            scrollbar-width: none;
             scroll-snap-type: x mandatory;
             scroll-behavior: smooth;
             }
 
+        .slides::-webkit-scrollbar {
+            display: none;
+            }
+
         .slides-item {
+            align-items: center;
+            border-radius: 10px;
+            display: flex;
+            flex-shrink: 0;
+            font-size: 1.5em;
+            height: 500px;
+            justify-content: center;
+            margin: 0 1rem;
+            position: relative;
             scroll-snap-align: start;
+            transform: scale(1);
+            transform-origin: center center;
+            transition: transform .5s;
+            width: 100%;
+            }
+
+        .carousel__nav {
+            padding: 1.25rem .5rem;
+            }
+
+        .slider-nav {
+            align-items: center;
+            background-color: #ddd;
+            border-radius: 50%;
+            color: #1f274c;
+            display: inline-flex;
+            height: 1.5rem;
+            justify-content: center;
+            padding: .5rem;
+            position: relative;
+            text-decoration: none;
+            width: 1.5rem;
+            }
+
+        .slider-nav:hover,
+        .slider-nav:active {
+            background-color: #1f274c;
+            color: #fffbf2;
+            }
+
+        .slide-1 {
+            background-color: #AEBEFF;
+            }
+
+        .slide-2 {
+            background-color: #AEFFC6;
+        }
+
+        .slide-3 {
+            background-color: #FFAEE7;
+            }
+
+        .carousel__skip-link {
+            height: 1px;
+            overflow: hidden;
+            position: absolute;
+            top: auto;
+            width: 1px;
+            }
+
+        .carousel__skip-link:focus {
+            align-items: center;
+            background-color: #1f274c;
+            color: #fffbf2;
+            display: flex;
+            font-size: 30px;
+            height: 500px;
+            justify-content: center;
+            opacity: .8;
+            text-decoration: none;
+            width: 100%;
+            z-index: 1;
             }
 
         #kenyans-on-twitter, #kenyans-in-print, #kenyans-in-is {
@@ -40,6 +124,35 @@
                     </div>
                 </div>
                 <div class="right">
+                    <section class="carousel" aria-label="carousel" Tabindex="0">
+                        <a class="carousel__skip-link" href="#skip-link">Skip the Carousel</a>
+                        <div class="slides">
+                            <div class="slides-item slide-1" id="slide-1" aria-label="slide 1 of 3" tabindex="0">
+                                <figure>
+                                    <img src="resources/img/kenyans on twitter.svg" id="kenyans-on-twitter"/>
+                                    <figcaption>Click 👆🏾 to watch the intro!</figcaption>
+                                </figure>
+                            </div>
+                            <div class="slides-item slide-2" id="slide-2" aria-label="slide 2 of 3" tabindex="0">
+                                <figure>
+                                    <img src="resources/img/kenyans in print.svg" id="kenyans-in-print"/>
+                                    <figcaption>Click 👆🏾 to watch the intro!</figcaption>
+                                </figure>
+                            </div>
+                            <div class="slides-item slide-3" id="slide-3" aria-label="slide 3 of 3" tabindex="0">
+                                <figure>
+                                    <img src="resources/img/kenyans in the informal sector.svg" id="kenyans-in-is"/>
+                                    <figcaption>Click 👆🏾 to watch the intro!</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel__nav">
+                            <a class="slider-nav" href="#slide-1" aria-label="Go to slide 1">1</a>
+                            <a class="slider-nav" href="#slide-2" aria-label="Go to slide 2">2</a>
+                            <a class="slider-nav" href="#slide-3" aria-label="Go to slide 3">3</a>
+                        </div>
+                        <div class="carousel__skip-message" id="skip-link" tabindex="0"></div>
+                    </section>
                     <div id="kenya-showcase" class="slides">
                         <div class="slides-item">
                             <img src="resources/img/kenyans on twitter.svg" id="kenyans-on-twitter"/>
