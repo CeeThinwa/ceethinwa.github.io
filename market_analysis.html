@@ -7,8 +7,14 @@
 </head>
 <body>
     <style>
-        figcaption {
-            text-align: center;
+        .slides {
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            }
+
+        .slides-item {
+            scroll-snap-align: start;
             }
 
         #kenyans-on-twitter, #kenyans-in-print, #kenyans-in-is {
@@ -34,11 +40,11 @@
                     </div>
                 </div>
                 <div class="right">
-                    <div class="kenya-showcase">
-                        <div class="left">
+                    <div id="kenya-showcase" class="slides">
+                        <div class="slides-item">
                             <img src="resources/img/kenyans on twitter.svg" id="kenyans-on-twitter"/>
                         </div>
-                        <div class="main">
+                        <div class="slides-item">
                             <a href="./resources/vid/Kenyans in Print.mp4">
                                 <figure>
                                     <img src="resources/img/kenyans in print.svg" id="kenyans-in-print"/>
@@ -46,7 +52,7 @@
                                 </figure>
                             </a>
                         </div>
-                        <div class="right">
+                        <div class="slides-item">
                             <img src="resources/img/kenyans in the informal sector.svg" id="kenyans-in-is"/>
                         </div>
                     </div>
